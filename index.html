@@ -18,18 +18,19 @@
     <div class="container">
         <main>
             <header>
-                <h1>Search for a show!</h1>
+                <h1>Search a show!</h1>
             </header>
             <form id="tv-search-form">
                 <div class="form-group">
                     <label for="tv-show-name"></label>
-                    <input type="text" class="form-control" placeholder="Search TV name.." id="tv" name="query">
+                    <input type="text" class="form-control" required placeholder="Search TV name.." id="tv"
+                        name="query">
                     <small id="emailHelp" class="form-text text-muted">Results will only display TV shows and not
                         movies.</small>
                 </div>
                 <button type="submit" class="btn btn-primary">Search</button>
+                <button type="button" id="reset-btn" class="btn btn-primary">Clear List</button>
             </form>
-
             <div id="shows">
 
             </div>
